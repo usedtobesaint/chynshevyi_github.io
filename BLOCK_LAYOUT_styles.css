@@ -1,0 +1,54 @@
+/* Стилі для заголовка */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Встановити мінімальну висоту області вмісту для заповнення вікна перегляду */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилі для навігації */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Стилі для товарів */
+.product-list {
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.product {
+    text-align: center;
+}
+
+/* Стилі для підвалу */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    bottom:0;
+}

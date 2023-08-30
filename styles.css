@@ -1,0 +1,19 @@
+body {
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li{
+    font-size: x-large;
+    color: aqua;
+}
+
+a{
+    font-size: x-large;
+    color: aqua;
+}
+
+h1{
+    position: center;
+}

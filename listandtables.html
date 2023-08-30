@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="tablestyles.css"/>
+    </head>
+    <body>
+        <!--Вкладений список-->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2
+                <ul>
+                    <li>List Item 2.1</li>
+                    <li>List Item 2.2
+                        <ol>
+                            <li>List item 2.3.1</li>
+                            <li>List item 2.3.2</li>
+                            <li>List item 2.3.3</li>
+                        </ol>
+                    </li>
+                    <li>List Item 2.3</li>
+                    <li>List Item 2.4</li>
+                </ul>
+            </li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5
+                <ol>
+                    <li>List Item 5.1</li>
+                    <li>List Item 5.2</li>
+                    <li>List Item 5.3</li>
+                    <li>List Item 5.4</li>
+                </ol>
+            </li>
+            <li>List Item 6</li>
+            <li>List Item 7</li>
+        </ul>  
+        <!--Коротка цитата-->
+        <p>Мета WWF полягає в тому, щоб: <q>Побудувати майбутнє, де люди живуть в гармонії з природою.</q></p>
+        <!--Довга цитата-->
+        <p>Ось цитата з сайту WWF:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+Протягом 50 років WWF захищає майбутнє природи.
+Всесвітня організація WWF, ведуча природоохоронна організація, працює в 100 країнах світу, її підтримують 1,2 мільйона чоловік в Сполучених Штатах і близькі до неї 5 мільйонів по всьому світу.
+</blockquote>
+        <!--Абревіатура-->
+        <p><abbr title="World Health Organization">WHO</abbr> була створена в 1948.</p>
+        <!--Адреса-->
+        <address>
+            Автор Джейк Грей.<br>
+            Відвідайте нас на:<br>
+            Example.com<br>
+            Box 564, Lalaland<br>
+            USA
+            </address>
+            <!--Назва роботи-->
+            <p><cite>The Scream</cite> by Edvard Munch. Написано в 1893.</p>
+            <!--Визначення напрямку тексту-->
+            <bdo dir="rtl">Цей текст буде написаний справа наліво</bdo>
+
+            <p></p>
+            <!--Таблиця з об'єднаннями колонок а рядків-->
+            <table style=width:100%>
+                <caption>Об'єднати колонки та рядки</caption>
+            <tr>
+                <th colspan="2">First</th>
+                <th>Second</th>
+                <th>Third</th>
+                <th>Fourth</th>
+                <th>Fifth</th>
+            </tr> 
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td rowspan="2">11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td> 
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+            </table>
+
+            <p></p>
+            <!--Таблиця з коміркою 2х2-->
+            <table style=width:100%>
+                <caption>Об'єднати колонки та рядки 2 на 2</caption>
+            <tr>
+                <th>First</th>
+                <th>Second</th>
+                <th>Third</th>
+                <th>Fourth</th>
+                <th>Fifth</th>
+            </tr> 
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td colspan="2" rowspan="2">13</td>
+                <td>15</td> 
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>25</td>
+            </tr>
+            </table>
+    </body>
+</html>
